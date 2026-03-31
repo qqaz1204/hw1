@@ -2,7 +2,6 @@
 #include <stdexcept>
 using namespace std;
 
-// ===== 抽象類別：Min Priority Queue =====
 template <class T>
 class MinPQ {
 public:
@@ -13,7 +12,6 @@ public:
     virtual void Pop() = 0;             // 刪除最小值
 };
 
-// ===== MinHeap 實作 =====
 template <class T>
 class MinHeap : public MinPQ<T> {
 private:
@@ -112,7 +110,6 @@ public:
     }
 };
 
-// ===== 主程式 =====
 int main() {
     MinHeap<int> myheap;
     int n, e;
