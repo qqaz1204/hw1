@@ -1,6 +1,6 @@
 # 41343123
 
-##　Max/Min Heap
+### Max/Min Heap
 
 ## 解題說明
 
@@ -179,12 +179,17 @@ int main() {
 Min Heap
 時間複雜度:
 Insert（Push）：O(log n)
+
 Delete（Pop）：O(log n)
+
 Top：O(1)
+
 原因為 Heap 為完全二元樹，其高度約為 log n。
 
 空間複雜度:
+
 每個節點：𝑂(1)
+
 總空間：𝑂(𝑛)
 
 ## 測試與驗證
@@ -240,7 +245,7 @@ Min Heap 在實務上應用廣泛，例如：
 遞迴會因堆疊深度受到限制，當 $n$ 值過大時，應考慮使用迭代版本來避免 Stack Overflow 問題。
 
 
-##　Binary Search Tree（ａ）
+### Binary Search Tree
 
 ## 解題說明
 (a) BST 高度分析
