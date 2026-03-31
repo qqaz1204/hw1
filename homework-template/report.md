@@ -176,8 +176,8 @@ int main() {
 
 ## 效能分析
 
-Min Heap
 時間複雜度:
+
 Insert（Push）：O(log n)
 
 Delete（Pop）：O(log n)
@@ -243,6 +243,10 @@ Min Heap 在實務上應用廣泛，例如：
 
 本次開發也加強了對時間複雜度的理解，特別是在大量資料處理時，O(log n) 的效率優勢十分明顯。
 遞迴會因堆疊深度受到限制，當 $n$ 值過大時，應考慮使用迭代版本來避免 Stack Overflow 問題。
+
+
+
+
 
 
 ### Binary Search Tree
